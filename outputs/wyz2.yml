@@ -1,0 +1,67 @@
+# Ground-plane lens values. Type focal_length, k1, and k2 for this camera.
+# Square pixels, principal point at the frame center, p1 = p2 = k3 = 0.
+# A new zoom needs a new file. Height, tilt, and the ground homography are not here.
+focal_length: 3.627
+focal_unit: mm
+lens_source: focal
+fov_deg: 46.71
+fov_axis: vertical
+k1: -0.40733
+k2: 0.12726
+p1: 0
+p2: 0
+k3: 0
+image:
+  width: 1920
+  height: 1080
+fx: 1250.631
+fy: 1250.631
+cx: 960.0
+cy: 540.0
+sensor_height_mm: 3.132
+rms_px: 1.441
+views: 16
+dropped_views: 0
+per_view_rms_px:
+- 2.196
+- 1.253
+- 1.377
+- 0.824
+- 1.434
+- 2.408
+- 2.296
+- 0.84
+- 0.591
+- 0.589
+- 1.175
+- 1.491
+- 1.054
+- 1.074
+- 0.688
+- 0.508
+fov_horizontal_deg: 75.02
+fov_vertical_deg: 46.71
+fov_diagonal_deg: 82.74
+board:
+  dictionary: DICT_4X4_50
+  squares_x: 5
+  squares_y: 7
+  square_mm: 34.7
+  marker_mm: 26.0
+source: rtsp://192.168.2.66:554/stream0
+captured_at: '2026-11-16T15:47:58-05:00'
+opencv: 5.0.0
+camera: wyz2
+unconstrained:
+  rms_px: 1.243
+  fx: 1134.707
+  fy: 1140.907
+  cx: 952.701
+  cy: 560.286
+  k1: -0.33084
+  k2: 0.08412
+  p1: -0.00217
+  p2: -0.00194
+  k3: 0.0
+warnings:
+- Reprojection error is 1.44 px. A sharp capture is usually under 1 px.
